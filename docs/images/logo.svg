@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="iMist logo">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="58%" r="55%"><stop offset="0" stop-color="#5b7bff"/><stop offset="1" stop-color="#5b7bff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c2550"/><stop offset="1" stop-color="#3b2a6e"/></linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#b)"/>
+  <circle cx="128" cy="150" r="96" fill="url(#g)"/>
+  <g fill="none" stroke="#e8ecff" stroke-width="9" stroke-linecap="round" opacity=".9">
+    <path d="M104 70c-12-14 12-22 0-38"/><path d="M128 74c-12-16 14-25 0-44"/><path d="M152 70c-12-14 12-22 0-38"/>
+  </g>
+  <rect x="84" y="92" width="88" height="124" rx="22" fill="#f6f7ff"/>
+  <g stroke="#c9cff2" stroke-width="4"><path d="M102 98v112M118 96v116M134 96v116M150 96v116"/></g>
+  <rect x="84" y="196" width="88" height="24" rx="8" fill="#e3e6f7"/>
+</svg>

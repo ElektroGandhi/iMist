@@ -1,0 +1,28 @@
+{
+  "domain": "imist",
+  "name": "iMist Aroma Diffuser",
+  "bluetooth": [
+    {
+      "local_name": "AromaDiffuser",
+      "service_uuid": "0000fff0-0000-1000-8000-00805f9b34fb",
+      "connectable": true
+    }
+  ],
+  "codeowners": [
+    "@ElektroGandhi"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "bluetooth_adapters",
+    "http",
+    "frontend",
+    "panel_custom",
+    "websocket_api"
+  ],
+  "documentation": "https://github.com/ElektroGandhi/iMist",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/ElektroGandhi/iMist/issues",
+  "requirements": [],
+  "version": "0.4.0"
+}

@@ -1,0 +1,30 @@
+name: Device report
+description: My diffuser is not recognized or behaves differently
+labels: [device]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks! The method is described in docs/PROTOCOL.md. Please do not write random bytes to your device.
+  - type: input
+    id: name
+    attributes:
+      label: Bluetooth name
+      placeholder: AromaDiffuser
+    validations:
+      required: true
+  - type: textarea
+    id: services
+    attributes:
+      label: Advertised services and GATT table
+      description: From nRF Connect or a similar app.
+    validations:
+      required: true
+  - type: textarea
+    id: reports
+    attributes:
+      label: Output of examples/control.py while pressing the buttons
+      render: text
+  - type: textarea
+    id: photo
+    attributes:
+      label: Photo of the device and its app (if known)

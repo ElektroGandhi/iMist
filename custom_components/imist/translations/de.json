@@ -1,0 +1,64 @@
+{
+  "config": {
+    "flow_title": "{name}",
+    "step": {
+      "user": {
+        "title": "Diffusor auswählen",
+        "data": {
+          "address": "Gerät"
+        }
+      },
+      "bluetooth_confirm": {
+        "description": "{name} ({address}) einrichten?"
+      }
+    },
+    "abort": {
+      "already_configured": "Gerät ist bereits eingerichtet",
+      "no_devices_found": "Kein iMist-Diffusor in Bluetooth-Reichweite"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Einstellungen",
+        "data": {
+          "panel": "Seite „Diffusor“ in der Seitenleiste zeigen"
+        },
+        "data_description": {
+          "panel": "Bedienung, Ausschalt-Timer, Zeitpläne und Diagnose auf einer Seite. Timer und Zeitpläne laufen auch bei ausgeblendeter Seite."
+        }
+      }
+    }
+  },
+  "entity": {
+    "light": {
+      "light": {
+        "name": "Licht",
+        "state_attributes": {
+          "effect": {
+            "state": {
+              "white": "Weiß",
+              "red": "Rot",
+              "yellow": "Gelb",
+              "green": "Grün",
+              "light_blue": "Hellblau",
+              "dark_blue": "Dunkelblau",
+              "pink": "Pink",
+              "warm_white": "Warmweiß"
+            }
+          }
+        }
+      }
+    },
+    "select": {
+      "mist": {
+        "name": "Nebel",
+        "state": {
+          "off": "Aus",
+          "continuous": "Dauer",
+          "interval": "Intervall"
+        }
+      }
+    }
+  }
+}

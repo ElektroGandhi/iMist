@@ -1,0 +1,19 @@
+{
+  "entity": {
+    "select": {
+      "mist": {
+        "default": "mdi:weather-fog",
+        "state": {
+          "off": "mdi:cloud-off-outline",
+          "continuous": "mdi:weather-fog",
+          "interval": "mdi:weather-hazy"
+        }
+      }
+    },
+    "light": {
+      "light": {
+        "default": "mdi:lightbulb-night"
+      }
+    }
+  }
+}

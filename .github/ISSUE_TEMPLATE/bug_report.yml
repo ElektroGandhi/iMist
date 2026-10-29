@@ -1,0 +1,44 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: ha
+    attributes:
+      label: Home Assistant version
+      placeholder: "2026.10.4"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Integration version
+      placeholder: "0.4.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: bt
+    attributes:
+      label: Bluetooth
+      options: [Local adapter, ESPHome Bluetooth proxy, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: Panel → Device and diagnostics → Copy diagnostics, or the downloaded diagnostics file.
+      render: json
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log lines
+      description: Lines containing `custom_components.imist`
+      render: text
