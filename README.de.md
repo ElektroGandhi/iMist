@@ -4,6 +4,8 @@
 
 <h1 align="center">iMist für Home Assistant</h1>
 
+<p align="center">💡 Ideas by <b>Blotto</b> · 🤖 Coded by <b>Claude Opus</b></p>
+
 <p align="center">
   <b>Die App ist weg. Der Diffusor nicht.</b><br>
   Lokale Bluetooth-Steuerung ohne Cloud für den iMist-Aromadiffusor – mit echtem Zustand, Zeitplänen,<br>
@@ -82,6 +84,14 @@ Nebel `00` aus · `20` Dauer · `40` Intervall; Licht `00` aus · `08` weiß · 
 - **Zeitweise nicht verfügbar:** Funkreichweite. Ab etwa −75 dBm reißt die Verbindung ab – näher heranstellen oder einen ESPHome-Bluetooth-Proxy in die Nähe.
 - **„Service fff0 missing“ im Protokoll:** anderes Protokoll, siehe oben.
 - **Sonst:** Seite → *Gerät und Diagnose* → **Diagnose kopieren** und an ein Issue hängen.
+
+## Wer das gemacht hat
+
+💡 **Ideas by Blotto · 🤖 Coded by Claude Opus**
+
+Die Idee, die Tests an echter Hardware und jede Entscheidung: **Blotto**. Ich kann selbst nicht programmieren –
+aber ich weiß, was ich will, und ich weiß die Weltwissens-Dampfmaschine zu bedienen. Jede Zeile Code, das
+Reverse Engineering und die Doku: **Claude Opus** (Anthropic) als mein Programmier-Agent.
 
 ## Hinweis
 

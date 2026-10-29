@@ -4,6 +4,8 @@
 
 <h1 align="center">iMist for Home Assistant</h1>
 
+<p align="center">💡 Ideas by <b>Blotto</b> · 🤖 Coded by <b>Claude Opus</b></p>
+
 <p align="center">
   <b>The app is gone. The diffuser is not.</b><br>
   Local, cloud-free Bluetooth control for the iMist aroma diffuser – with a real-time state, schedules,<br>
@@ -169,6 +171,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Tests run without Home Assistant install
 ```bash
 pip install pytest && pytest -q
 ```
+
+## Who made this
+
+💡 **Ideas by Blotto · 🤖 Coded by Claude Opus**
+
+The idea, the testing on real hardware and every decision: **Blotto**. I can't write code myself – but I know
+what I want, and I know how to drive the world-knowledge steam engine. Every line of code, the reverse
+engineering and the documentation: **Claude Opus** (Anthropic), working as my coding agent.
 
 ## Disclaimer
 
